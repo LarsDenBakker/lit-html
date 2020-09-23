@@ -156,6 +156,7 @@ export default {
   rootDir: "../",
   // Note this file list can be overridden by wtr command-line arguments.
   files: [
+    "../lit-html/src/test/**/*_test.html",
     "../lit-html/development/**/*_test.js",
     "../lit-element/development/**/*_test.js",
   ],
